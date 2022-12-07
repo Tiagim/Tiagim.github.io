@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="/css/particlex.css">
         <script src="https://cdn.staticfile.org/vue/3.2.33/vue.global.prod.min.js"></script>
         <script src="https://cdn.staticfile.org/animejs/3.2.1/anime.min.js"></script>
+        <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
     <meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
@@ -292,5 +294,119 @@ mjx-container[display="true"] + br {
         <div id="cursor"></div>
         <script src="/css/cursor.css"></script>
         <script src="/js/cursor.min.js"></script>
-        </body>
+        <script language="Javascript">
+            // 监听整个网页的copy(复制)事件
+            document.addEventListener('copy', function (event) {
+                // clipboardData 对象是为通过编辑菜单、快捷菜单和快捷键执行的编辑操作所保留的，也就是你复制或者剪切内容
+                let clipboardData = event.clipboardData || window.clipboardData;
+                // 如果未复制或者未剪切，则return出去
+                if (!clipboardData) { return; }
+                // Selection 对象，表示用户选择的文本范围或光标的当前位置。
+                //     声明一个变量接收 -- 用户输入的剪切或者复制的文本转化为字符串
+                let text = window.getSelection().toString();
+                if (text) {
+                    // 如果文本存在，首先取消文本的默认事件
+                    event.preventDefault();
+                    // 通过调用常clipboardData对象的 setData(format, data) 方法；来设置相关文本
+
+                    // setData(format, data);参数
+                    // format
+                    // 一个DOMString 表示要添加到 drag object的拖动数据的类型。
+                    // data
+                    // 一个 DOMString表示要添加到 drag object的数据。
+                    clipboardData.setData('text/plain', text + '\n\n-----------\n转载自 Tiagim\n链接：' + window.location.href);
+                }
+            });
+
+        </script>
+        <script language="Javascript">
+            document.onkeydown=function (e){
+                var currKey=0,evt=e||window.event;
+                currKey=evt.keyCode||evt.which||evt.charCode;
+                if (currKey == 123) {//123是f12
+                    window.event.cancelBubble = true;//取消冒泡
+                    window.event.returnValue = false;//返回false禁用f12 功能
+                }
+            }
+        </script>
+        <noscript><iframe src="*.htm"></iframe></noscript>
+        <style type="text/css">
+                  a {text-decoration: none;}
+                  div.usercm{background-repeat:no-repeat;background-position:center center;background-size:cover;background-color:#fff;font-size:13px!important;width:130px;-moz-box-shadow:1px 1px 3px rgba
+                (0,0,0,.3);box-shadow:0px 0px 15px #333;position:absolute;display:none;z-index:10000;opacity:0.9; border-radius: 8px;}
+                  div.usercm ul{list-style-type:none;list-style-position:outside;margin:0px;padding:0px;display:block}
+                  div.usercm ul li{margin:0px;padding:0px;line-height:35px;}
+                  div.usercm ul li a{color:#666;padding:0 15px;display:block}
+                  div.usercm ul li a:hover{color:#fff;background:rgba(146, 201, 250, 0.9)}
+                  div.usercm ul li a i{margin-right:10px}
+                  a.disabled{color:#c8c8c8!important;cursor:not-allowed}
+                  a.disabled:hover{background-color:rgba(255,11,11,0)!important}
+                  div.usercm{background:#fff !important;}
+                  </style>
+                <div class="usercm" style="left: 199px; top: 5px; display: none;">
+                  <ul>
+                    <li><a href="https://tiagim.github.io/"><i class="fa fa-home fa-fw"></i><span>首页</span></a></li>
+                    <li><a href="javascript:void(0);" onclick="getSelect();"><i class="fa fa-copy fa-fw"></i><span>复制</span></a></li>
+                    <li><a href="javascript:void(0);" onclick="baiduSearch();"><i class="fa fa-search fa-fw"></i><span>搜索</span></a></li>
+                    <li><a href="javascript:history.go(1);"><i class="fa fa-arrow-right fa-fw"></i><span>前进</span></a></li>
+                    <li><a href="javascript:history.go(-1);"><i class="fa fa-arrow-left fa-fw"></i><span>后退</span></a></li>
+                    <li style="border-bottom:1px solid gray"><a href="javascript:window.location.reload();"><i class="fa fa-refresh fa-fw"></i><span>重载网页</span></a></li>
+                  </ul>
+                </div>
+                <script type="text/javascript">
+                  (function(a) {
+                    a.extend({
+                      mouseMoveShow: function(b) {
+                        var d = 0,
+                            c = 0,
+                            h = 0,
+                            k = 0,
+                            e = 0,
+                            f = 0;
+                        a(window).mousemove(function(g) {
+                          d = a(window).width();
+                          c = a(window).height();
+                          h = g.clientX;
+                          k = g.clientY;
+                          e = g.pageX;
+                          f = g.pageY;
+                          h + a(b).width() >= d && (e = e - a(b).width() - 5);
+                          k + a(b).height() >= c && (f = f - a(b).height() - 5);
+                          a("html").on({
+                            contextmenu: function(c) {
+                              3 == c.which && a(b).css({
+                                left: e,
+                                top: f
+                              }).show()
+                            },
+                            click: function() {
+                              a(b).hide()
+                            }
+                          })
+                        })
+                      },
+                      disabledContextMenu: function() {
+                        window.oncontextmenu = function() {
+                          return !1
+                        }
+                      }
+                    })
+                  })(jQuery);
+
+                  function getSelect() {
+                    "" == (window.getSelection ? window.getSelection() : document.selection.createRange().text) ? layer.msg("啊噢...你没还没选择文字呢！") : document.execCommand("Copy")
+                  }
+                  function baiduSearch() {
+                    var a = window.getSelection ? window.getSelection() : document.selection.createRange().text;
+                    "" == a ? layer.msg("啊噢...你没还没选择文字呢！") : window.open("https://www.baidu.com/s?wd=" + a)
+                  }
+                  $(function() {
+                    for (var a = navigator.userAgent, b = "Android;iPhone;SymbianOS;Windows Phone;iPad;iPod".split(";"), d = !0, c = 0; c < b.length; c++) if (0 < a.indexOf(b[c])) {
+                      d = !1;
+                      break
+                    }
+                    d && ($.mouseMoveShow(".usercm"), $.disabledContextMenu())
+                  });
+                  </script>
+    </body>
 </html>
