@@ -260,7 +260,7 @@ mjx-container[display="true"] + br {
             
             <span class="tag">
                 
-                <a href="/tags/%E7%AE%97%E6%B3%95/" style="color: #00bcd4">
+                <a href="/tags/%E7%AE%97%E6%B3%95/" style="color: #ffa2c4">
                     算法
                 </a>
             </span>
@@ -275,6 +275,11 @@ mjx-container[display="true"] + br {
     </div>
     
     
+    
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" />
+    <div id="comment">
+        <div id="waline-container"></div>
+    </div>
     
 </div>
                         <footer id="footer">
@@ -304,6 +309,24 @@ mjx-container[display="true"] + br {
         <script src="/js/showimg.js"></script>
         
 
+
+<script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+<script>
+    Waline.init({
+        el: '#waline-container',
+        serverURL: "blog-comments-theta.vercel.app",
+        commentCount: true,
+        pageview: false,
+        emoji: "https://unpkg.com/@waline/emojis@1.0.1/weibo,https://unpkg.com/@waline/emojis@1.0.1/alus,https://unpkg.com/@waline/emojis@1.0.1/bilibili,https://unpkg.com/@waline/emojis@1.0.1/qq,https://unpkg.com/@waline/emojis@1.0.1/tieba,https://unpkg.com/@waline/emojis@1.0.1/tw-emoji".split(','),
+        meta: "nick,mail,link".split(','),
+        requiredMeta: "nick".split(','),
+        lang: "zh-CN",
+        wordLimit: 0,
+        pageSize: "10",
+        login: "enable",
+        locale: {}
+    });
+</script>
 
         <canvas
             id="fireworks"
