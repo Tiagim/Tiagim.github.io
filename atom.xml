@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://tiagim.github.io</id>
+    <id>https://blog.tiagim.top</id>
     <title>重樱的长门</title>
     <subtitle></subtitle>
-    <icon>https://tiagim.github.io/assets/favicon.ico</icon>
-    <link href="https://tiagim.github.io" />
+    <icon>https://blog.tiagim.top/assets/favicon.ico</icon>
+    <link href="https://blog.tiagim.top" />
     <author>
       <name>Tiagim</name>
     </author>
     <updated>2023-03-26T09:35:52.000Z</updated>
     <entry>
-        <id>https://tiagim.github.io/OI/slope/</id>
+        <id>https://blog.tiagim.top/OI/slope/</id>
         <title>浅谈斜率优化</title>
-        <link rel="alternate" href="https://tiagim.github.io/OI/slope/"/>
+        <link rel="alternate" href="https://blog.tiagim.top/OI/slope/"/>
         <content type="html">&lt;p&gt;之前研究过一段时间的斜率优化，总觉的什么时候该写写。&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;hr&gt;
@@ -270,15 +270,15 @@ int main()&amp;#123;
 &lt;li&gt;其他大佬的博客&lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-        <category term="算法" scheme="https://tiagim.github.io/tags/%E7%AE%97%E6%B3%95/" />
-        <category term="DP" scheme="https://tiagim.github.io/tags/DP/" />
+        <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+        <category term="算法" scheme="https://blog.tiagim.top/tags/%E7%AE%97%E6%B3%95/" />
+        <category term="DP" scheme="https://blog.tiagim.top/tags/DP/" />
         <updated>2023-03-26T09:35:52.000Z</updated>
     </entry>
     <entry>
-        <id>https://tiagim.github.io/OI/summarize/2023gdkoi/</id>
+        <id>https://blog.tiagim.top/OI/summarize/2023gdkoi/</id>
         <title>2023GDKOI游记</title>
-        <link rel="alternate" href="https://tiagim.github.io/OI/summarize/2023gdkoi/"/>
+        <link rel="alternate" href="https://blog.tiagim.top/OI/summarize/2023gdkoi/"/>
         <content type="html">&lt;h1 id=&#34;考前&#34;&gt;&lt;a href=&#34;#考前&#34; class=&#34;headerlink&#34; title=&#34;考前&#34;&gt;&lt;/a&gt;考前&lt;/h1&gt;&lt;p&gt;试机的时候搞错机器了，导致没换键盘（那个键盘斜着按不下去），vscode也没配好，直接用的虚拟机的vscode。&lt;/p&gt;
 &lt;h1 id=&#34;Day1&#34;&gt;&lt;a href=&#34;#Day1&#34; class=&#34;headerlink&#34; title=&#34;Day1&#34;&gt;&lt;/a&gt;Day1&lt;/h1&gt;&lt;p&gt;顺序开题。&lt;/p&gt;
 &lt;p&gt;T1本来写了个结构体包装的矩乘（觉得这样比较方便），但是莫名RE调了20min，后来改成函数乘，就对了。以为随机取点正确率不高，又没做过矩阵乘向量的题，所以只拿了暴力分。&lt;/p&gt;
@@ -291,15 +291,15 @@ int main()&amp;#123;
 &lt;hr&gt;
 &lt;p&gt;还是写什么挂什么，代码能力不够，学的东西不会用。&lt;/p&gt;
 </content>
-        <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-        <category term="游记" scheme="https://tiagim.github.io/categories/OI/summarize/" />
-        <category term="其他" scheme="https://tiagim.github.io/tags/%E5%85%B6%E4%BB%96/" />
+        <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+        <category term="游记" scheme="https://blog.tiagim.top/categories/OI/summarize/" />
+        <category term="其他" scheme="https://blog.tiagim.top/tags/%E5%85%B6%E4%BB%96/" />
         <updated>2023-03-16T06:46:43.000Z</updated>
     </entry>
     <entry>
-        <id>https://tiagim.github.io/OI/summarize/2023spring/</id>
+        <id>https://blog.tiagim.top/OI/summarize/2023spring/</id>
         <title>2023春测游记</title>
-        <link rel="alternate" href="https://tiagim.github.io/OI/summarize/2023spring/"/>
+        <link rel="alternate" href="https://blog.tiagim.top/OI/summarize/2023spring/"/>
         <content type="html">&lt;h1 id=&#34;Step0&#34;&gt;&lt;a href=&#34;#Step0&#34; class=&#34;headerlink&#34; title=&#34;Step0&#34;&gt;&lt;/a&gt;Step0&lt;/h1&gt;&lt;p&gt;考前本来想看点什么的，但是看的也没用到。&lt;/p&gt;
 &lt;h1 id=&#34;Step1&#34;&gt;&lt;a href=&#34;#Step1&#34; class=&#34;headerlink&#34; title=&#34;Step1&#34;&gt;&lt;/a&gt;Step1&lt;/h1&gt;&lt;p&gt;开考后先全看一遍，再写完T1。之前考过类似T1的题，但是比它难多了。不过我比较蠢，一开始还在想怎么那数据结构维护这个东西（之前那题就是这样），然后意识到这是大水题（&lt;/p&gt;
 &lt;p&gt;总共花了10min。&lt;/p&gt;
@@ -311,37 +311,37 @@ int main()&amp;#123;
 &lt;h1 id=&#34;StepEnd&#34;&gt;&lt;a href=&#34;#StepEnd&#34; class=&#34;headerlink&#34; title=&#34;StepEnd&#34;&gt;&lt;/a&gt;StepEnd&lt;/h1&gt;&lt;p&gt;这次顺序开题，在T2就卡了，好像写什么什么挂。&lt;/p&gt;
 &lt;p&gt;对于各种技巧和算法不熟练，思路不缜密，分析不到位（这些问题好像经常有？还在改进）。&lt;/p&gt;
 </content>
-        <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-        <category term="游记" scheme="https://tiagim.github.io/categories/OI/summarize/" />
-        <category term="其他" scheme="https://tiagim.github.io/tags/%E5%85%B6%E4%BB%96/" />
+        <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+        <category term="游记" scheme="https://blog.tiagim.top/categories/OI/summarize/" />
+        <category term="其他" scheme="https://blog.tiagim.top/tags/%E5%85%B6%E4%BB%96/" />
         <updated>2023-03-16T02:23:45.000Z</updated>
     </entry>
     <entry>
-        <id>https://tiagim.github.io/OI/dfz/</id>
+        <id>https://blog.tiagim.top/OI/dfz/</id>
         <title>点分治</title>
-        <link rel="alternate" href="https://tiagim.github.io/OI/dfz/"/>
+        <link rel="alternate" href="https://blog.tiagim.top/OI/dfz/"/>
         <content type="html">&lt;p&gt;暂未填坑。&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 </content>
-        <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-        <category term="算法" scheme="https://tiagim.github.io/tags/%E7%AE%97%E6%B3%95/" />
+        <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+        <category term="算法" scheme="https://blog.tiagim.top/tags/%E7%AE%97%E6%B3%95/" />
         <updated>2022-12-07T14:17:27.000Z</updated>
     </entry>
     <entry>
-        <id>https://tiagim.github.io/OI/cdq/</id>
+        <id>https://blog.tiagim.top/OI/cdq/</id>
         <title>CDQ分治</title>
-        <link rel="alternate" href="https://tiagim.github.io/OI/cdq/"/>
+        <link rel="alternate" href="https://blog.tiagim.top/OI/cdq/"/>
         <content type="html">&lt;p&gt;暂未填坑。&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 </content>
-        <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-        <category term="算法" scheme="https://tiagim.github.io/tags/%E7%AE%97%E6%B3%95/" />
+        <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+        <category term="算法" scheme="https://blog.tiagim.top/tags/%E7%AE%97%E6%B3%95/" />
         <updated>2022-12-07T14:15:53.000Z</updated>
     </entry>
     <entry>
-        <id>https://tiagim.github.io/OI/faster/</id>
+        <id>https://blog.tiagim.top/OI/faster/</id>
         <title>常数优化</title>
-        <link rel="alternate" href="https://tiagim.github.io/OI/faster/"/>
+        <link rel="alternate" href="https://blog.tiagim.top/OI/faster/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;先看$c++$版本以及是否打开优化开关&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -409,14 +409,14 @@ int main()&amp;#123;
 &lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-        <category term="其他" scheme="https://tiagim.github.io/tags/%E5%85%B6%E4%BB%96/" />
+        <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+        <category term="其他" scheme="https://blog.tiagim.top/tags/%E5%85%B6%E4%BB%96/" />
         <updated>2022-12-04T12:19:36.000Z</updated>
     </entry>
     <entry>
-        <id>https://tiagim.github.io/OI/summarize/2022noip/</id>
+        <id>https://blog.tiagim.top/OI/summarize/2022noip/</id>
         <title>2022NOIP游记</title>
-        <link rel="alternate" href="https://tiagim.github.io/OI/summarize/2022noip/"/>
+        <link rel="alternate" href="https://blog.tiagim.top/OI/summarize/2022noip/"/>
         <content type="html">&lt;p&gt;今年考得比较离谱。&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;p&gt;先开的T1。T1想到朴素暴力：处理出纵向和横向连续的“0”，再按“c”拼接，“f”往下延申。T1想到这里就没有进展了，一直没想到用前缀和，因为我太菜了。实际上换一种思考方式还是很容易想到前缀和的，然而我没有，还是因为我太菜了。T1浪费了2h+，出来听说其他人火速切T1，挺无语的。&lt;/p&gt;
@@ -425,9 +425,9 @@ int main()&amp;#123;
 &lt;p&gt;最后5min，T4打了st表，没时间测大样例。&lt;/p&gt;
 &lt;p&gt;以后还是多练练。希望wc能有所进步吧。&lt;/p&gt;
 </content>
-        <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-        <category term="游记" scheme="https://tiagim.github.io/categories/OI/summarize/" />
-        <category term="其他" scheme="https://tiagim.github.io/tags/%E5%85%B6%E4%BB%96/" />
+        <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+        <category term="游记" scheme="https://blog.tiagim.top/categories/OI/summarize/" />
+        <category term="其他" scheme="https://blog.tiagim.top/tags/%E5%85%B6%E4%BB%96/" />
         <updated>2022-12-01T14:50:52.000Z</updated>
     </entry>
 </feed>

@@ -3,8 +3,8 @@
     <channel>
         <title>重樱的长门</title>
         <subtitle></subtitle>
-        <icon>https://tiagim.github.io/assets/favicon.ico</icon>
-        <link>https://tiagim.github.io</link>
+        <icon>https://blog.tiagim.top/assets/favicon.ico</icon>
+        <link>https://blog.tiagim.top</link>
         <author>
           <name>Tiagim</name>
         </author>
@@ -13,12 +13,12 @@
         <pubDate>Sun, 26 Mar 2023 17:35:52 +0800</pubDate>
         <lastBuildDate>Sun, 26 Mar 2023 17:35:52 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">https://tiagim.github.io/OI/slope/</guid>
+            <guid isPermalink="true">https://blog.tiagim.top/OI/slope/</guid>
             <title>浅谈斜率优化</title>
-            <link>https://tiagim.github.io/OI/slope/</link>
-            <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-            <category term="算法" scheme="https://tiagim.github.io/tags/%E7%AE%97%E6%B3%95/" />
-            <category term="DP" scheme="https://tiagim.github.io/tags/DP/" />
+            <link>https://blog.tiagim.top/OI/slope/</link>
+            <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+            <category term="算法" scheme="https://blog.tiagim.top/tags/%E7%AE%97%E6%B3%95/" />
+            <category term="DP" scheme="https://blog.tiagim.top/tags/DP/" />
             <pubDate>Sun, 26 Mar 2023 17:35:52 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;之前研究过一段时间的斜率优化，总觉的什么时候该写写。&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
@@ -279,12 +279,12 @@ int main()&amp;#123;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://tiagim.github.io/OI/summarize/2023gdkoi/</guid>
+            <guid isPermalink="true">https://blog.tiagim.top/OI/summarize/2023gdkoi/</guid>
             <title>2023GDKOI游记</title>
-            <link>https://tiagim.github.io/OI/summarize/2023gdkoi/</link>
-            <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-            <category term="游记" scheme="https://tiagim.github.io/categories/OI/summarize/" />
-            <category term="其他" scheme="https://tiagim.github.io/tags/%E5%85%B6%E4%BB%96/" />
+            <link>https://blog.tiagim.top/OI/summarize/2023gdkoi/</link>
+            <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+            <category term="游记" scheme="https://blog.tiagim.top/categories/OI/summarize/" />
+            <category term="其他" scheme="https://blog.tiagim.top/tags/%E5%85%B6%E4%BB%96/" />
             <pubDate>Thu, 16 Mar 2023 14:46:43 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;考前&#34;&gt;&lt;a href=&#34;#考前&#34; class=&#34;headerlink&#34; title=&#34;考前&#34;&gt;&lt;/a&gt;考前&lt;/h1&gt;&lt;p&gt;试机的时候搞错机器了，导致没换键盘（那个键盘斜着按不下去），vscode也没配好，直接用的虚拟机的vscode。&lt;/p&gt;
 &lt;h1 id=&#34;Day1&#34;&gt;&lt;a href=&#34;#Day1&#34; class=&#34;headerlink&#34; title=&#34;Day1&#34;&gt;&lt;/a&gt;Day1&lt;/h1&gt;&lt;p&gt;顺序开题。&lt;/p&gt;
@@ -300,12 +300,12 @@ int main()&amp;#123;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://tiagim.github.io/OI/summarize/2023spring/</guid>
+            <guid isPermalink="true">https://blog.tiagim.top/OI/summarize/2023spring/</guid>
             <title>2023春测游记</title>
-            <link>https://tiagim.github.io/OI/summarize/2023spring/</link>
-            <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-            <category term="游记" scheme="https://tiagim.github.io/categories/OI/summarize/" />
-            <category term="其他" scheme="https://tiagim.github.io/tags/%E5%85%B6%E4%BB%96/" />
+            <link>https://blog.tiagim.top/OI/summarize/2023spring/</link>
+            <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+            <category term="游记" scheme="https://blog.tiagim.top/categories/OI/summarize/" />
+            <category term="其他" scheme="https://blog.tiagim.top/tags/%E5%85%B6%E4%BB%96/" />
             <pubDate>Thu, 16 Mar 2023 10:23:45 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;Step0&#34;&gt;&lt;a href=&#34;#Step0&#34; class=&#34;headerlink&#34; title=&#34;Step0&#34;&gt;&lt;/a&gt;Step0&lt;/h1&gt;&lt;p&gt;考前本来想看点什么的，但是看的也没用到。&lt;/p&gt;
 &lt;h1 id=&#34;Step1&#34;&gt;&lt;a href=&#34;#Step1&#34; class=&#34;headerlink&#34; title=&#34;Step1&#34;&gt;&lt;/a&gt;Step1&lt;/h1&gt;&lt;p&gt;开考后先全看一遍，再写完T1。之前考过类似T1的题，但是比它难多了。不过我比较蠢，一开始还在想怎么那数据结构维护这个东西（之前那题就是这样），然后意识到这是大水题（&lt;/p&gt;
@@ -320,33 +320,33 @@ int main()&amp;#123;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://tiagim.github.io/OI/dfz/</guid>
+            <guid isPermalink="true">https://blog.tiagim.top/OI/dfz/</guid>
             <title>点分治</title>
-            <link>https://tiagim.github.io/OI/dfz/</link>
-            <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-            <category term="算法" scheme="https://tiagim.github.io/tags/%E7%AE%97%E6%B3%95/" />
+            <link>https://blog.tiagim.top/OI/dfz/</link>
+            <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+            <category term="算法" scheme="https://blog.tiagim.top/tags/%E7%AE%97%E6%B3%95/" />
             <pubDate>Wed, 07 Dec 2022 22:17:27 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;暂未填坑。&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://tiagim.github.io/OI/cdq/</guid>
+            <guid isPermalink="true">https://blog.tiagim.top/OI/cdq/</guid>
             <title>CDQ分治</title>
-            <link>https://tiagim.github.io/OI/cdq/</link>
-            <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-            <category term="算法" scheme="https://tiagim.github.io/tags/%E7%AE%97%E6%B3%95/" />
+            <link>https://blog.tiagim.top/OI/cdq/</link>
+            <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+            <category term="算法" scheme="https://blog.tiagim.top/tags/%E7%AE%97%E6%B3%95/" />
             <pubDate>Wed, 07 Dec 2022 22:15:53 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;暂未填坑。&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://tiagim.github.io/OI/faster/</guid>
+            <guid isPermalink="true">https://blog.tiagim.top/OI/faster/</guid>
             <title>常数优化</title>
-            <link>https://tiagim.github.io/OI/faster/</link>
-            <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-            <category term="其他" scheme="https://tiagim.github.io/tags/%E5%85%B6%E4%BB%96/" />
+            <link>https://blog.tiagim.top/OI/faster/</link>
+            <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+            <category term="其他" scheme="https://blog.tiagim.top/tags/%E5%85%B6%E4%BB%96/" />
             <pubDate>Sun, 04 Dec 2022 20:19:36 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;先看$c++$版本以及是否打开优化开关&lt;/p&gt;
@@ -417,12 +417,12 @@ int main()&amp;#123;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://tiagim.github.io/OI/summarize/2022noip/</guid>
+            <guid isPermalink="true">https://blog.tiagim.top/OI/summarize/2022noip/</guid>
             <title>2022NOIP游记</title>
-            <link>https://tiagim.github.io/OI/summarize/2022noip/</link>
-            <category term="OI" scheme="https://tiagim.github.io/categories/OI/" />
-            <category term="游记" scheme="https://tiagim.github.io/categories/OI/summarize/" />
-            <category term="其他" scheme="https://tiagim.github.io/tags/%E5%85%B6%E4%BB%96/" />
+            <link>https://blog.tiagim.top/OI/summarize/2022noip/</link>
+            <category term="OI" scheme="https://blog.tiagim.top/categories/OI/" />
+            <category term="游记" scheme="https://blog.tiagim.top/categories/OI/summarize/" />
+            <category term="其他" scheme="https://blog.tiagim.top/tags/%E5%85%B6%E4%BB%96/" />
             <pubDate>Thu, 01 Dec 2022 22:50:52 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;今年考得比较离谱。&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
